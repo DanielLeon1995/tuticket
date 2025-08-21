@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Web con Node</title>
+    <title>tuticket.cl - Democratizando el acceso a eventos</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Encabezado con Logo y Menú -->
     <header>
         <h1>tuticket.cl</h1>
         <nav>
@@ -17,43 +16,39 @@
         </nav>
     </header>
 
-    <!-- Contenido Principal -->
-        <main>
+    <main>
         <section>
-            <h2>¡Bienvenido a mi Página!</h2>
+            <h2>¡Bienvenido a tuticket.cl!</h2>
             <p>Esta es mi primera web creada con Node.js y un servidor local. Estoy aprendiendo desarrollo web.</p>
             <button id="miBoton">Hazme clic</button>
             <img src="https://placehold.co/600x400" alt="Una imagen de ejemplo">
         </section>
+    </main>
 
-        <!-- SECCIÓN DE CONTACTO CON LOS CAMPOS QUE QUIERES -->
-        
-    </main>
-    </main>
-<section id="contacto">
-            <h2>Contáctame</h2>
-            <form id="formulario-contacto">
-                <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </div>
-                <div>
-                    <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="comentario">Comentario:</label>
-                    <textarea id="comentario" name="comentario" rows="5" required placeholder="Escribe aquí tu comentario..."></textarea>
-                </div>
-                <button type="submit">Enviar Mensaje</button>
-            </form>
-            <div id="mensaje-exito" style="display: none; color: green; margin-top: 15px;">
-                ¡Mensaje enviado con éxito! Te contactaré pronto.
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="formulario-contacto">
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
             </div>
-        </section>
-    <!-- Pie de Página -->
+            <div>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" required placeholder="Escribe aquí tu comentario..."></textarea>
+            </div>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+        <div id="mensaje-exito" style="display: none; color: green; margin-top: 15px;">
+            ¡Mensaje enviado con éxito! Te contactaremos pronto.
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 - <tuticket class="cl"></tuticket></p>
+        <p>&copy; 2025 - tuticket.cl</p>
     </footer>
 
     <script src="js/script.js"></script>
